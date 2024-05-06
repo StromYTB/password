@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <form class="loginContainer" onsubmit="return validatePassword()">
+            <h2>Vytváření Hesla</h2>
+            <label for="password">Heslo:</label>
+            <input class="loginInput" type="password" id="password" name="password" required>
+            <br>
+            <label for="confirm_password">Potvrzení hesla:</label>
+            <input class="loginInput" type="password" id="confirm_password" name="confirm_password" required>
+            <br>
+            <input class="loginButton" type="submit" value="Odeslat">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
